@@ -1,0 +1,22 @@
+{
+  "name": "typescript-eslint-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.1.0",
+    "@typescript-eslint/parser": "^8.1.0",
+    "typescript-eslint": "^8.1.0"
+  },
+  "dependencies": {
+    "earcut": "^3.0.0",
+    "eslint": "^8.57.0"
+  }
+}
